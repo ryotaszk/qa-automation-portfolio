@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "QA automation portfolio using Playwright, TypeScript, and CI.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:sauce": "playwright test tests/saucedemo.spec.ts",
+    "report": "playwright show-report"
+  }
+,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryotaszk/qa-automation-portfolio.git"
